@@ -1,0 +1,20 @@
+.boldText {
+    font-weight: bold;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.confirm {
+    background-color: green;
+    color: white;
+}
+
+.cancel {
+    background-color: white;
+}
+
+.thin {
+    font-weight: 200;
+}
