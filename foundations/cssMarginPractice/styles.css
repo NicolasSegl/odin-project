@@ -1,0 +1,27 @@
+body { /* this has to be body! (the whole background). now the entire screen can only be 600px across, and not just all the divs)*/
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* by using body instead of div, the margin is now putting all elements in body in the middle. */
+
+.first {
+    border: 3px solid blue;
+    background-color: pink;
+    padding: 30px;
+    margin: 10px;
+}
+
+.second {
+    border: 3px solid purple;
+    background-color: lightblue;
+}
+
+.third {
+    border: 3px solid darkred;
+    background-color: beige;
+    margin-top: 50px;
+    margin-left: auto;
+    padding: 30px;
+    width: 200px;
+}
