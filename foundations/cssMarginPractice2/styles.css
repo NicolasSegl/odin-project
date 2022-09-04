@@ -1,0 +1,30 @@
+body {
+    background: lightgray;
+}
+
+.container {
+    width: 400px;
+    background-color: white;
+    padding: 1px;
+}
+
+.container * {
+    background-color: lightblue;
+    margin: 5px;
+    padding: 10px;
+}
+
+.header {
+    font-weight: bold;
+}
+
+.buttonContainer {
+    text-align: center;
+}
+
+.button {
+    border: 1px solid gray;
+    background: white;
+    display: block;
+    margin: 0 auto;
+}
