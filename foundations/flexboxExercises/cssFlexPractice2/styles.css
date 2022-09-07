@@ -1,0 +1,28 @@
+.header {
+    background-color: bisque;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+}
+
+li {
+    background-color: white;
+    color: blue;
+    padding: 4px;
+}
+
+.logo {
+    font-size: 32px;
+    background-color: white;
+    color: crimson;
+    padding: 4px 32px;
+}
