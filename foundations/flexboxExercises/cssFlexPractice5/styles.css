@@ -1,0 +1,62 @@
+body {
+    font-family: Roboto, sans-serif;
+    background-color: gray;
+}
+
+.popup-box {
+    margin: 300px auto;
+    width: 500px;
+    background-color: white;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    border-radius: 15px;
+    padding: 8px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    margin-right: 15px;
+    color: white;
+    font-size: 26px;
+    font-weight: 700;
+    background: lightseagreen;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.text * {
+    margin: 5px 0;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.continue, .cancel {
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.continue {
+    background-color: royalblue;
+    color: white;
+    border: 0px solid white;
+}
+
+.cancel {
+    background-color: white;
+    color: royalblue;
+    border: 1px solid gray;
+}
